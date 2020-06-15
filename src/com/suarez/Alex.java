@@ -21,9 +21,8 @@ public class Alex {
                     temp = temp.substring(indexOf + 1);
                     indexOf = temp.indexOf(letter);
                 }
-                firstword = firstword.replace(letter, ' ');
-                // you will go and check the rest of your message
-                // you send phrase-firstWord letter
+           //     firstword = firstword.replace(letter, ' ');
+
                 System.out.println(letter + " " + count);
                 count = 0;
             }
